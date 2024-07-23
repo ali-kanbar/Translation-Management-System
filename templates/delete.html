@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    {%include "header.html"%}
+    <body>
+        <div id="new_word_container">
+            <form id="new_word_form" action="{{ url_for('delete_word') }}" method="POST">
+                <label for="word">Word:</label>
+                <input type="text" id="word" name="word">
+                <br>
+                <button type="submit">Delete</button>
+            </form>
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <ul class="flashes">
+                        {% for category, message in messages %}
+                            <li class="{{ category }}">{{ message }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+        {% endwith %}
+        </div>
+    </body>
+</html>

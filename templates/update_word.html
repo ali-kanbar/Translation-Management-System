@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    {%include "header.html"%}
+    <body>
+        <div id="new_word_container">
+            <form id="new_word_form" action="{{ url_for('update_translation') }}" method="POST">
+                <label for="word">Word:</label>
+                <input type="text" id="word" name="word">
+                <br>
+                <label for="updated_translation">Updated Translation:</label>
+                <input type="text" id="updated_translation" name="updated_translation">
+                <br>
+                <button type="submit">Update</button>
+            </form>
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <ul class="flashes">
+                        {% for category, message in messages %}
+                            <li class="{{ category }}">{{ message }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+        {% endwith %}
+        </div>
+    </body>
+</html>
