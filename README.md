@@ -79,10 +79,22 @@ This project serves as a basic example of a CRUD (Create, Read, Update, Delete) 
 
 ## Example Inputs/Outputs
 
-### Adding a New Translation
+### Add Translation
 
-![Screenshot 2024-07-23 190303](https://github.com/user-attachments/assets/17515895-4b5b-43b9-a5aa-66db6909bea1) ![Screenshot 2024-07-23 190354](https://github.com/user-attachments/assets/e633f6b7-af3b-48a9-bac2-1a10cc67547b)
+#### Adding a New Translation
 
+![Screenshot 2024-07-23 190303](https://github.com/user-attachments/assets/17515895-4b5b-43b9-a5aa-66db6909bea1) 
+![Screenshot 2024-07-23 190354](https://github.com/user-attachments/assets/e633f6b7-af3b-48a9-bac2-1a10cc67547b)
+
+#### Trying to add a word that already exists in the DataBase
+
+![Screenshot 2024-07-23 190424](https://github.com/user-attachments/assets/793b6e8f-8b64-4d08-8f97-b7a905d90beb)
+![Screenshot 2024-07-23 190433](https://github.com/user-attachments/assets/d6d95a33-ea72-4278-9664-96f72078628f)
+
+#### Leaving one or both input fields empty
+
+![Screenshot 2024-07-23 191304](https://github.com/user-attachments/assets/2843f03b-d54f-41ba-94a6-611b4f8c8eca)
+![Screenshot 2024-07-23 191311](https://github.com/user-attachments/assets/b975d021-eaa9-4968-84aa-2a9de580da09)
 
 ### Translating a Word
 
