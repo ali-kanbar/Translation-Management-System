@@ -81,7 +81,7 @@ This project serves as a basic example of a CRUD (Create, Read, Update, Delete) 
 
 ### Add Translation
 
-#### Adding a New Translation
+#### Adding a New Translation to the Database
 
 ![Screenshot 2024-07-23 190303](https://github.com/user-attachments/assets/17515895-4b5b-43b9-a5aa-66db6909bea1) 
 ![Screenshot 2024-07-23 190354](https://github.com/user-attachments/assets/e633f6b7-af3b-48a9-bac2-1a10cc67547b)
@@ -106,17 +106,69 @@ This project serves as a basic example of a CRUD (Create, Read, Update, Delete) 
 
 ### Translating a Word
 
+#### Translating a word that exists in the DataBase
+
+![image](https://github.com/user-attachments/assets/f878d5ce-f34d-4cb4-bf60-433294f9432b)
+![image](https://github.com/user-attachments/assets/1450fd19-9160-448b-88fb-4ff23c604034)
+
+#### Trying to Translate a word that doesn't exists in the DataBase
+
+![Screenshot 2024-07-23 191935](https://github.com/user-attachments/assets/be58b5fd-80ed-4220-8937-e24300ae954b)
+![Screenshot 2024-07-23 191923](https://github.com/user-attachments/assets/8bbc7545-ea65-4234-a40a-f15d27510366)
+
+
+#### Leaving the Word Field empty
+
+![image](https://github.com/user-attachments/assets/c0917589-8210-460f-99a9-943feb9f0479)
 
 
 ### Updating a Translation
 
-- **Input**: Word: "hello", Updated Translation: "bonjour"
-- **Output**: "Translation updated successfully"
+#### Updating the Translation of a word that exists inside the Database
+
+![Screenshot 2024-07-23 192147](https://github.com/user-attachments/assets/a07a3b3a-fd73-4294-8846-d220409eec95)
+![Screenshot 2024-07-23 192154](https://github.com/user-attachments/assets/2763c3f6-1e5b-462c-b919-5116c120f74d)
+
+
+#### Trying to Update the Translation of a word that exists inside the Database
+
+![Screenshot 2024-07-23 192324](https://github.com/user-attachments/assets/44ef4401-e056-425f-b317-82df88517906)
+![Screenshot 2024-07-23 192335](https://github.com/user-attachments/assets/7ed71ffa-e662-4d4d-86b0-2e225ea42269)
+
+
+#### Leaving one or both input fields empty
+
+![Screenshot 2024-07-23 192435](https://github.com/user-attachments/assets/913512b2-ddb5-4218-aa67-96677b2f7fde)
+
+
+#### What our DataBase looks like after adding some words and their translations
+
+![Screenshot 2024-07-23 192618](https://github.com/user-attachments/assets/ada61d99-87b9-444d-8e91-6bf120350920)
+
 
 ### Deleting a Word
 
-- **Input**: Word: "hello"
-- **Output**: "Word deleted successfully"
+#### Deleting a word that exists in the DataBase
+
+![image](https://github.com/user-attachments/assets/20890d9b-50f5-4eb4-8466-52a31f5e9810)
+![image](https://github.com/user-attachments/assets/1d959f41-8883-4b65-8357-e17d32ccea9d)
+
+
+#### Trying to delete a word that doesn't exists in the DataBase
+
+![image](https://github.com/user-attachments/assets/f1e8e079-6b47-4e83-bf76-0cb3a080c636)
+![image](https://github.com/user-attachments/assets/27a0ef09-d314-467f-82af-365579e8b5a8)
+
+
+#### Leaving the word field empty
+
+![image](https://github.com/user-attachments/assets/cbb76b62-547b-461c-9f7c-ee1aeec9bc9c)
+
+
+#### What our DataBase looks like after adding some words and their translations
+
+![image](https://github.com/user-attachments/assets/4ca9e1a3-38e0-490b-9b9b-d32b343ae7c3)
+
 
 ## Approach and Assumptions
 
