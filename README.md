@@ -20,6 +20,10 @@ This project serves as a basic example of a CRUD (Create, Read, Update, Delete) 
 
 - Python 3.x
 - pip (Python package installer)
+- Flask
+- Flask-SQLAlchemy
+- Flask-Session
+- SQLAlchemy
 
 ### Installation
 
@@ -40,7 +44,11 @@ This project serves as a basic example of a CRUD (Create, Read, Update, Delete) 
 3. **Install dependencies:**
 
     ```bash
-    pip install -r requirements.txt
+    pip install Flask
+    pip install Flask-SQLAlchemy
+    pip install Flask-Session
+    pip install SQLAlchemy
+    pip install python-dotenv
     ```
 
 4. **Set environment variables:**
@@ -121,6 +129,8 @@ This project serves as a basic example of a CRUD (Create, Read, Update, Delete) 
 
 ![image](https://github.com/user-attachments/assets/c0917589-8210-460f-99a9-943feb9f0479)
 
+> **Note:**
+> The Translation input field is readonly
 
 ### Updating a Translation
 
