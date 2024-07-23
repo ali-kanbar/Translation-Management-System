@@ -82,10 +82,9 @@ This project serves as a basic example of a CRUD (Create, Read, Update, Delete) 
 ### Adding a New Translation
 
 <p align="center">
-    <img src="![Screenshot 2024-07-23 190303](https://github.com/user-attachments/assets/93f6769b-6832-4245-916a-f62ff4af93c8)
-" alt="Screenshot 1" width="300">
-    <img src="Screenshot 2024-07-23 190354.png" alt="Screenshot 2" width="300">
-    <img src="path/to/screenshot3.png" alt="Screenshot 3" width="300">
+   ![Screenshot 2024-07-23 190303](https://github.com/user-attachments/assets/17515895-4b5b-43b9-a5aa-66db6909bea1)
+![Screenshot 2024-07-23 190354](https://github.com/user-attachments/assets/e633f6b7-af3b-48a9-bac2-1a10cc67547b)
+
 </p>
 
 ### Translating a Word
