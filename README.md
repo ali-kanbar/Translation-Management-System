@@ -86,20 +86,27 @@ This project serves as a basic example of a CRUD (Create, Read, Update, Delete) 
 ![Screenshot 2024-07-23 190303](https://github.com/user-attachments/assets/17515895-4b5b-43b9-a5aa-66db6909bea1) 
 ![Screenshot 2024-07-23 190354](https://github.com/user-attachments/assets/e633f6b7-af3b-48a9-bac2-1a10cc67547b)
 
+
 #### Trying to add a word that already exists in the DataBase
 
 ![Screenshot 2024-07-23 190424](https://github.com/user-attachments/assets/793b6e8f-8b64-4d08-8f97-b7a905d90beb)
 ![Screenshot 2024-07-23 190433](https://github.com/user-attachments/assets/d6d95a33-ea72-4278-9664-96f72078628f)
 
+
 #### Leaving one or both input fields empty
 
-![Screenshot 2024-07-23 191304](https://github.com/user-attachments/assets/2843f03b-d54f-41ba-94a6-611b4f8c8eca)
-![Screenshot 2024-07-23 191311](https://github.com/user-attachments/assets/b975d021-eaa9-4968-84aa-2a9de580da09)
+![Screenshot 2024-07-23 191512](https://github.com/user-attachments/assets/b9521670-ff07-4ccc-b80d-d6a2330ca8e5)
+![Screenshot 2024-07-23 191520](https://github.com/user-attachments/assets/96aa933d-abfd-4eaa-8491-48f6059c5671)
+
+
+#### What our DataBase looks like after adding some words and their translations
+
+![image](https://github.com/user-attachments/assets/a621157f-e3ea-43d9-83a6-132b8e3cb056)
+
 
 ### Translating a Word
 
-- **Input**: Word: "hello"
-- **Output**: "Translation: hola"
+
 
 ### Updating a Translation
 
